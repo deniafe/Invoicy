@@ -11,7 +11,7 @@
           <span
             >Filter by status <span v-if="filteredInvoice">: {{ filteredInvoice }}</span></span
           >
-          <img src="@/assets/icon-arrow-down.svg" alt="" />
+          <img src="@/assets/icon-arrow-down.svg" alt="" /> 
           <ul v-show="filterMenu" class="filter-menu">
             <li @click="filteredInvoices">Draft</li>
             <li @click="filteredInvoices">Pending</li>
